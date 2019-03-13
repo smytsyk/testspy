@@ -1,0 +1,42 @@
+{
+    "name": "smytsyk-dev/testspy",
+    "description": "Detector",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stas Mytsyk",
+            "email": "denielm10@gmail.com"
+        },
+        {
+            "name": "Vlad Mytsyk",
+            "email": "vdmytsyk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "TestSpy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TestSpy\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "psr/simple-cache": "^1.0",
+        "phpunit/phpunit": "6.5.13",
+        "symfony/cache": "^4.2",
+        "symfony/console": "^3.4",
+        "psr/log": "^1.1",
+        "symfony/config": "^3.4",
+        "symfony/yaml": "^4.1",
+        "ext-simplexml": "*"
+    },
+    "bin": [
+        "testSpyParallel"
+    ]
+}

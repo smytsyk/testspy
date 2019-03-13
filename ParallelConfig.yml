@@ -1,0 +1,10 @@
+parallel:
+  parallel_runner_path: /absolutePath/vendor/bin/testSpyParallel # TestSpy Parallel runner path
+  codebase_dir_path: /absolutePath/Codebase/ # Set up codebase path
+  fqcn_listener_dao: \TestSpy\FileSystemTestSpyDao # FQCN Listener Data Access Object
+  phpunit_runner_command: /absolutePath/vendor/bin/phpunit # Phpunit path
+  config_xml: /Users/smytsyk/Server/git/testspy/unit.xml # Phpunit xml config path
+  test_dir_path: /absolutePath/tests # Path to tests
+  test_suffix: Test.php # Test Suffix
+  test_bootstrap: /Users/smytsyk/Server/git/testspy/bootstrap.php # Test Bootstrap
+  temp_path: /tmp/ # Directory for temporary files

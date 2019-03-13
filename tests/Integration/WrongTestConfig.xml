@@ -1,0 +1,15 @@
+<Custom
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/7.4/phpunit.xsd"
+        backupGlobals="true"
+        backupStaticAttributes="false"
+        bootstrap="vendor/autoload.php">
+    <listeners>
+        <listener class="MyListener" file="MyListener.php">
+        </listener>
+    </listeners>
+    <testsuites>
+        <testsuite name="SomeSuite">
+        </testsuite>
+    </testsuites>
+</Custom>
